@@ -10,47 +10,41 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:ayannarayan04@gmail.com" data-cursor="disable">
-                ayannarayan04@gmail.com
+              <a href="mailto:harshkoku04@gmail.com" data-cursor="disable">
+                harshkoku04@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+917903981425" data-cursor="disable">
-                +91 7903981425
+              <a href="tel:+919767668505" data-cursor="disable">
+                +91 97676 68505
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/ayanarayan"
+              href="https://github.com/harsh-koku"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/ayan-narayan-aaa03a371"
+              href="https://linkedin.com/in/harsh-koku-080845250/"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
-              href="https://x.com/_ayanarayan"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Ayan Narayan</span>
+              Designed and Developed <br /> by <span>Harsh Koku</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

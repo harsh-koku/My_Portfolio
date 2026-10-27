@@ -1,8 +1,7 @@
 import {
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
+  FaEnvelope,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -60,27 +59,22 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/ayanarayan" target="_blank">
+          <a href="https://github.com/harsh-koku" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/ayan-narayan-aaa03a371" target="_blank">
+          <a href="https://linkedin.com/in/harsh-koku-080845250/" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/_ayanarayan" target="_blank">
-            <FaXTwitter />
-          </a>
-        </span>
-        <span>
-          <a href="https://www.instagram.com/_ayanarayan" target="_blank">
-            <FaInstagram />
+          <a href="mailto:harshkoku04@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="/resume.pdf" download="Ayan_Narayan_Resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a className="resume-button" href="/resume.pdf" download="Harsh_Koku_Resume.pdf" target="_blank" rel="noopener noreferrer">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

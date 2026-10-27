@@ -52,28 +52,28 @@ const Work = () => {
         <div className="work-flex">
           {[
             {
-              name: "Expenzo",
-              category: "Web Application",
-              tools: "React.js, Express.js, Node.js, MongoDB",
-              description: "A full-stack web-application for expense tracking, enabling secure authentication, CRUD operations, dynamic visualizations, and email notifications."
+              name: "Citizen Grievance System",
+              category: "AI & Full-Stack Portal",
+              tools: "Java, Spring Boot, Hibernate, Next.js, React, MySQL, Python, NLP / LLM",
+              description: "AI layer integrated with a government portal to automate citizen grievance routing. Features Spring Boot & Hibernate backend, Next.js interface, LLM-based sentiment priority assignment, and EXIF metadata validation for tamper-proof evidence submissions."
             },
             {
-              name: "EaseMeet",
-              category: "AI Chatbot",
-              tools: "HTML, CSS, Python, AWS",
-              description: "Deployed an AI-powered chatbot automating appointment management, reducing scheduling time by 70%, with secure session-based flow."
+              name: "Deep Packet Inspection",
+              category: "Network Systems & Security",
+              tools: "Java, Multithreading, Socket Programming, Networks, OOP",
+              description: "High-performance DPI engine in Java capturing, parsing, and classifying real-time network traffic. Implemented concurrent packet parsing, protocol classification, connection tracking, and protocol-wise traffic summaries."
             },
             {
-              name: "QuantumLend",
-              category: "DeFi Web Application",
-              tools: "Next.js, TypeScript, CSS, Solidity, Hardhat",
-              description: "Created a full-stack DeFi app for secure P2P Ethereum loans, processing $500K+ in transactions, improving smart contract efficiency by 40%, and boosting engagement via responsive UI."
+              name: "College Fest Platform",
+              category: "Interactive Web Experience",
+              tools: "HTML5, CSS3, JavaScript, Responsive UI, Git",
+              description: "Collaborated in a 6-member team to design and deploy the official college fest website, creating responsive layouts, dynamic animations, and delivering an engaging user experience across all device viewports."
             },
             {
-              name: "FitFlow",
-              category: "AI Fitness Application",
-              tools: "Python, Gradio, ReportLab, OpenAI API",
-              description: "Developed an AI-powered fitness web app generating personalized adaptive diet and workout plans. Features automated PDF report generation and a real-time AI chatbot for workout guidance."
+              name: "Smart India Hackathon",
+              category: "National Level Innovation",
+              tools: "Java, Spring Boot, REST APIs, Microservices, MySQL",
+              description: "Selected among the top college teams to represent in the national-level Smart India Hackathon 2025, solving real-world challenges with clean architecture and scalable cloud design."
             }
           ].map((project, index) => (
             <div className="work-box" key={index}>
@@ -87,8 +87,8 @@ const Work = () => {
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>{project.tools}</p>
-                <p style={{ marginTop: '10px', fontSize: '14px' }}>{project.description}</p>
+                <p className="work-tools">{project.tools}</p>
+                <p className="work-description">{project.description}</p>
               </div>
             </div>
           ))}

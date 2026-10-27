@@ -87,24 +87,27 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOPMENT</h3>
-              <h4>Frontend & Backend</h4>
+              <h3>BACKEND & SYSTEMS</h3>
+              <h4>Java, Spring Boot & Distributed Architecture</h4>
               <p>
-                Building responsive and scalable web applications from functional UI elements to robust server-side architecture.
+                Developing enterprise backend systems, RESTful microservices, and high-performance multithreaded networking engines.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">C/C++</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">Spring Boot</div>
+                <div className="what-tags">Spring MVC</div>
+                <div className="what-tags">Spring Security</div>
+                <div className="what-tags">Spring Data JPA</div>
+                <div className="what-tags">Hibernate</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">Microservices</div>
+                <div className="what-tags">Multithreading</div>
+                <div className="what-tags">Socket Programming</div>
+                <div className="what-tags">System Design</div>
+                <div className="what-tags">Maven</div>
+                <div className="what-tags">C++</div>
                 <div className="what-tags">Python</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">HTML</div>
-                <div className="what-tags">CSS</div>
-                <div className="what-tags">NumPy</div>
-                <div className="what-tags">Pandas</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,19 +131,25 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>SYSTEM & CLOUD</h3>
-              <h4>Databases & Infrastructure</h4>
+              <h3>FULL-STACK & CLOUD</h3>
+              <h4>Frontend, Databases & DevOps</h4>
               <p>
-                Designing database schemas and deploying scalable applications with modern cloud technologies securely.
+                Building responsive web interfaces, relational database schemas, and modern cloud deployment pipelines.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Amazon Web Services</div>
-                <div className="what-tags">Microsoft Azure</div>
-                <div className="what-tags">MongoDB</div>
+                <div className="what-tags">Next.js</div>
+                <div className="what-tags">React 19</div>
+                <div className="what-tags">JavaScript (ES6+)</div>
+                <div className="what-tags">Tailwind CSS</div>
+                <div className="what-tags">HTML5 & CSS3</div>
                 <div className="what-tags">MySQL</div>
-                <div className="what-tags">Git</div>
-                <div className="what-tags">AI Integrations</div>
+                <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">AWS (EC2, S3)</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Git & GitHub</div>
+                <div className="what-tags">CI/CD</div>
+                <div className="what-tags">Agile</div>
               </div>
               <div className="what-arrow"></div>
             </div>

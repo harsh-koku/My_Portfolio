@@ -60,7 +60,7 @@
   justify-content: space-between;
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .work-title > div {
   text-align: right;
@@ -70,21 +70,48 @@
   line-height: 50px;
   margin: 0;
   font-weight: 600;
+  color: var(--accentColor);
+}
+.work-title h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  line-height: 28px;
+}
+.work-title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin: 0;
+  margin-top: 5px;
 }
 
-.work-info h4 {
-  font-size: 18px;
+.work-info > h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
   font-weight: 400;
+  color: #8c8c8c;
   margin: 0;
+  margin-top: 15px;
 }
-.work-info p {
-  font-weight: 200;
-  color: #adacac;
+.work-tools {
+  font-size: 14px;
+  font-weight: 300;
+  color: #e2e2e2;
   margin: 0;
-  margin-top: 3px;
+  margin-top: 6px;
+  line-height: 1.5;
 }
-.work-info > p {
-  width: 90%;
+.work-description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: #b5b5b5;
+  margin: 0;
+  margin-top: 18px;
+  width: 95%;
 }
 .work-image {
   display: flex;

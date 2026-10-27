@@ -15,25 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer Intern</h4>
-                <h5>Nepbyte</h5>
+                <h4>Higher Secondary (HSC - XII)</h4>
+                <h5>SGB Defence Services Academy</h5>
+              </div>
+              <h3>2023</h3>
+            </div>
+            <p>
+              Completed Class XII Board Examination with 86.17%. Built a solid foundation in Physics, Chemistry, and Advanced Mathematics.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Hackathons & Cloud Summit</h4>
+                <h5>Smart India Hackathon & AWS</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Developed responsive web applications using React, Node.js, and Express. Designed and optimized RESTful APIs, improving data retrieval speed by 20%, and integrated MySQL & MongoDB databases.
+              Qualified internally for Smart India Hackathon (SIH) 2025 among top teams to represent at national level. Participated in the AWS Builder Summit 2026, gaining insights into modern cloud architectures and scalable deployments.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>B.Tech in Computer Science</h4>
-                <h5>Vellore Institute of Technology</h5>
+                <h5>G H Raisoni College of Engineering, Nagpur</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Computer Networks, DBMS. Final year student.
+              CGPA: 8.49/10. Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Computer Networks, DBMS, Operating Systems, System Design. Expected Graduation 2027.
             </p>
           </div>
         </div>

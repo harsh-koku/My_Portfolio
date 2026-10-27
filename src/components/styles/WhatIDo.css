@@ -34,33 +34,33 @@
 }
 .what-box-in {
   flex-direction: column;
-  height: 500px;
+  height: 540px;
   margin-left: 200px;
   position: relative;
   display: none;
 }
 .what-content {
-  width: 450px;
+  width: 470px;
   height: 33%;
   min-height: 50%;
   transition: 0.5s;
   /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
   position: relative;
-  padding: 50px;
+  padding: 40px;
   box-sizing: border-box;
 }
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
-  padding: 40px 50px;
+  min-height: 72%;
+  padding: 30px 40px;
 }
 
 .what-noTouch:hover ~ .what-content,
 .what-box-in:hover .what-noTouch:not(:hover),
 .what-content.what-sibling {
-  min-height: 33%;
-  padding: 10px 50px;
+  min-height: 28%;
+  padding: 10px 40px;
 }
 .what-content h3 {
   font-size: 35px;
@@ -183,7 +183,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 450px;
+  width: 470px;
 }
 .what-border2 {
   position: absolute;
@@ -199,7 +199,7 @@
   animation: whatBorders 1.2s 1 forwards;
 }
 .what-border2 svg {
-  height: 500px;
+  height: 540px;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
